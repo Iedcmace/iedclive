@@ -6,7 +6,7 @@ window.teamData = [
     { id: 2, name: "Mariya", position: "COO", photo: "assets/team/mariya.jpg", team: "Core Team" },
     { id: 3, name: "Kevin", position: "Secretary", photo: "assets/team/kevin.jpg", team: "Core Team" },
     { id: 4, name: "Abhishek", position: "CTO", photo: "assets/team/abhishek.jpg", team: "Core Team" },
-    { id: 5, name: "Anirudh", position: "CAO", photo: "assets/team/Anirudh.jpeg", team: "Core Team" },
+    { id: 5, name: "Anirudh", position: "CAO", photo: "assets/team/Anirudh.jpg", team: "Core Team" },
     { id: 6, name: "Maria", position: "CFO", photo: "assets/team/Maria Roselind.jpeg", team: "Core Team" },
     { id: 7, name: "Dheeraj", position: "Marketing Co-Lead", photo: "assets/team/Dheeraj.jpeg", team: "Core Team" },
     { id: 8, name: "Malavika", position: "Marketing Co-Lead", photo: "assets/team/Malavika.jpeg", team: "Core Team" },
@@ -40,7 +40,7 @@ window.teamData = [
     { id: 20, name: "Samil", position: "Marketing Co-Lead", photo: "assets/team/Samil Mehaboob - Marketing Co-lead .jpg", team: "Sponsorship & Startup" },
     { id: 21, name: "Jeevan", position: "Sponsorship", photo: "assets/team/Jeevan.JPEG", team: "Sponsorship & Startup" },
     { id: 22, name: "Shan", position: "Startup Team", photo: "assets/team/SHAN AHAMMED BABU PT (STARTUP TEAM).jpg", team: "Sponsorship & Startup" },
-    { id: 23, name: "Anzal", position: "Startup Team", photo: "assets/team/anzal.jpg", team: "Sponsorship & Startup" },
+    { id: 23, name: "Anzal", position: "Startup Team", photo: "assets/team/anzal.jpeg", team: "Sponsorship & Startup" },
 
     /* ============================
              DESIGN & DOC
