@@ -1,0 +1,152 @@
+/* About Section */
+.about-section {
+  max-width: 1200px;
+  margin: 5rem auto 3rem;
+  padding: 0 2rem;
+}
+
+.about-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.about-image-wrapper {
+  flex: 1 1 40%;
+  max-width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+
+.about-image {
+  display: block;
+  width: 100%;
+  max-width: 460px;
+  height: auto;
+  max-height: 75vh;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  box-shadow: 0 18px 40px var(--shadow-medium);
+}
+
+.about-content {
+  flex: 1 1 45%;
+  max-width: 50%;
+}
+
+.about-heading {
+  text-align: left;
+  font-size: 2.5rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  color: var(--brand-primary);
+  font-weight: 800;
+}
+
+.about-subheading {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.4rem;
+  color: var(--brand-secondary);
+}
+
+.about-text {
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary);
+  font-size: 1.15rem;
+}
+
+@media (max-width: 900px) {
+  .about-section {
+    margin: 3.5rem auto 2.5rem;
+    padding: 0 1.5rem;
+  }
+
+  .about-layout {
+    flex-direction: column;
+  }
+
+  .about-image-wrapper,
+  .about-content {
+    max-width: 100%;
+  }
+
+  .about-heading {
+    text-align: left;
+  }
+}
+
+/* Vision / Mission / Goal Pillars */
+.about-pillars {
+  max-width: 1200px;
+  margin: 0 auto 5rem;
+  padding: 0 2rem;
+}
+
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.pillar-card {
+  padding: 2rem 1.8rem;
+  border-radius: 1.2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+  cursor: pointer;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-light);
+}
+
+.pillar-card h3 {
+  margin-bottom: 0.75rem;
+  font-size: 1.4rem;
+  color: var(--brand-primary);
+}
+
+.pillar-card p {
+  line-height: 1.7;
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+}
+
+.pillar-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 22px 55px var(--shadow-medium);
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* Individual accent colors (darker, still theme-safe) */
+.pillar-vision {
+  background: linear-gradient(135deg, rgba(0, 135, 120, 0.32), var(--bg-surface));
+  border-color: rgba(0, 135, 120, 0.9);
+}
+
+.pillar-mission {
+  background: linear-gradient(135deg, rgba(64, 48, 180, 0.32), var(--bg-surface));
+  border-color: rgba(64, 48, 180, 0.9);
+}
+
+.pillar-goal {
+  background: linear-gradient(135deg, rgba(210, 130, 0, 0.32), var(--bg-surface));
+  border-color: rgba(210, 130, 0, 0.9);
+}
+
+@media (max-width: 900px) {
+  .about-pillars {
+    padding: 0 1.5rem 3.5rem;
+  }
+
+  .pillars-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Ensure anchored scroll accounts for fixed header for About */
+#about {
+  scroll-margin-top: 80px;
+}
