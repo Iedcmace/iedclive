@@ -6,7 +6,7 @@ window.teamData = [
     { id: 2, name: "Mariya", position: "COO", photo: "assets/team/mariya.jpg", team: "Core Team" },
     { id: 3, name: "Kevin", position: "Secretary", photo: "assets/team/kevin.jpg", team: "Core Team" },
     { id: 4, name: "Abhishek", position: "CTO", photo: "assets/team/abhishek.jpg", team: "Core Team" },
-    { id: 5, name: "Anirudh", position: "CAO", photo: "assets/team/Anirudh.jpg", team: "Core Team" },
+    { id: 5, name: "Anirudh", position: "CAO", photo: "assets/team/anirudh.jpg", team: "Core Team" },
     { id: 6, name: "Maria", position: "CFO", photo: "assets/team/Maria Roselind.jpeg", team: "Core Team" },
     { id: 7, name: "Dheeraj", position: "Marketing Co-Lead", photo: "assets/team/Dheeraj.jpeg", team: "Core Team" },
     { id: 8, name: "Malavika", position: "Marketing Co-Lead", photo: "assets/team/Malavika.jpeg", team: "Core Team" },
