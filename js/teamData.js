@@ -82,7 +82,7 @@ window.teamData = [
 
     // Web
     { id: 44, name: "Nayana", position: "Web Team", photo: "assets/team/nayana.jpeg", team: "Web Team" },
-    { id: 45, name: "Aparna", position: "Web Team", photo: "assets/team/Aparna Suresh_web.jpg", team: "Web Team" },
+    { id: 45, name: "Aparna", position: "Web Team", photo: "assets/team/Aparna Suresh_web.JPG", team: "Web Team" },
     { id: 46, name: "Esha", position: "Web Team", photo: "assets/team/esha.jpg", team: "Web Team" },
 
     /* ============================
