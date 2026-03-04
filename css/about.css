@@ -7,32 +7,33 @@
 
 .about-layout {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 3rem;
   flex-wrap: wrap;
 }
 
 .about-image-wrapper {
-  flex: 1 1 40%;
-  max-width: 50%;
+  flex: 1 1 45%;
+  max-width: 60%;
   display: flex;
-  justify-content: flex-start;
-  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
 }
 
 .about-image {
   display: block;
   width: 100%;
-  max-width: 460px;
+  max-width: 550px;
   height: auto;
-  max-height: 75vh;
+  max-height: 90vh;
   object-fit: cover;
   border-radius: 1.5rem;
   box-shadow: 0 18px 40px var(--shadow-medium);
 }
 
 .about-content {
-  flex: 1 1 45%;
+  flex: 1 1 50%;
   max-width: 50%;
 }
 

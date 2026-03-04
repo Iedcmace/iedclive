@@ -11,10 +11,35 @@
   <link rel="stylesheet" href="css/layout.css" />
   <link rel="stylesheet" href="css/home.css" />
   <link rel="stylesheet" href="css/about.css" />
+  <link rel="stylesheet" href="css/loader.css">
+  <link rel="stylesheet" href="css/announcement.css" />
 </head>
 
 <body>
-
+  <!-- MaceKart Announcement Banner - Scrolling Ticker -->
+<div class="announcement-banner">
+  <div class="ticker-wrapper">
+    <div class="ticker-content">
+      <span class="ticker-item">
+        <span class="announcement-text">
+          Exciting News! <strong>MaceKart</strong> is now live! 
+          <a href="https://store20723.store.link/" target="_blank" class="announcement-link">Visit MaceKart</a>
+        </span>
+      </span>
+      <span class="ticker-item">
+        <span class="announcement-text">
+          Exciting News! <strong>MaceKart</strong> is now live! 
+          <a href="https://store20723.store.link/" target="_blank" class="announcement-link">Visit MaceKart</a>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+  <!-- Loader HTML -->
+  <div id="loader-container" class="loader-container">
+  <div class="spinner"></div>
+  <div class="loader-text">Loading your content...</div>
+  </div> 
   <!-- Header / Navbar -->
   <header class="site-header">
     <div class="header-container">
@@ -40,6 +65,7 @@
           <a href="#events">Events</a>
           <a href="#facilities">Facilities</a>
           <a href="#faq">FAQs</a>
+          <a href="virtual-library.html">Virtual Library</a>
           <a href="#execome">Our Team</a>
           <a href="#mentors">Mentors</a>
           <a href="#contact">Contact</a>
@@ -579,6 +605,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.rings.min.js"></script>
   <script src="js/teamData.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/loader.js"></script>
+  <script>
+  // Initialize loader when page starts
+  window.addEventListener('DOMContentLoaded', () => {
+    const loader = new ImageLoader('loader-container');
+    loader.init();
+    });
+  </script>
 </body>
 
 </html>
